@@ -67,10 +67,11 @@ h2 {
   font-weight: bold;
 }
 
-.Meaning .example {
+.Meanings .example {
   font-size: 16px;
   opacity: 0.5;
   margin-top: 10px;
+  text-decoration: italic;
 }
 
 .Phonetic a:hover {

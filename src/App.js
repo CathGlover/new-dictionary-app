@@ -6,11 +6,11 @@ import "./Dictionary.css";
 function App() {
   return (
     <div className="App">
-      <Dictionary />
+      <Dictionary defaultKeyword="seashore" />
       <footer>
         Open source code by Catherine, published on{" "}
         <a
-          href="https://github.com/CathGlover/dictionary-app-react"
+          href="https://github.com/CathGlover/new-dictionary-app"
           target="_blank"
           rel="noopener noreferrer"
         >

@@ -2,8 +2,8 @@ import React, { useState } from "react";
 import "./Dictionary.css";
 import axios from "axios";
 import Definitions from "./Definitions";
-export default function Dictionary() {
-  let [keyword, setKeyword] = useState("seashore");
+export default function Dictionary(props) {
+  let [keyword, setKeyword] = useState(props.defaultKeyword);
   let [definitions, setDefinitions] = useState(null);
   let [loaded, setLoaded] = useState(false);
 
@@ -47,6 +47,5 @@ export default function Dictionary() {
     );
   } else {
     load();
-    return "Loading...";
   }
 }
